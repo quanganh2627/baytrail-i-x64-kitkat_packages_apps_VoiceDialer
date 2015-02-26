@@ -11,6 +11,7 @@ LOCAL_JNI_SHARED_LIBRARIES := libsrec_jni
 
 LOCAL_PRIVILEGED_MODULE := true
 
+LOCAL_MULTILIB := 32
 include $(BUILD_PACKAGE)
 
 # Install the srec data files if VoiceDialer.apk is installed to system image.
